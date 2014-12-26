@@ -15,4 +15,10 @@ CONFIG   -= app_bundle
 TEMPLATE = app
 
 
-SOURCES += main.cpp
+SOURCES += main.cpp \
+    filesyestemhandler.cpp \
+    serviceconnector.cpp
+
+HEADERS += \
+    filesyestemhandler.h \
+    serviceconnector.h
